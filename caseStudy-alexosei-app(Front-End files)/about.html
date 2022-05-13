@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ABOUT</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/content.css">
+        <link rel="stylesheet" href="/css/login-form.css">
+        <link rel="stylesheet" href="/css/about.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+        <style type="text/css">
+            /*footer styling begins*/
+           #right{
+               display: flex;
+               justify-content:space-evenly;
+               align-items: center;
+               margin-right: 30px;
+           }
+    
+           #right p, #left p{
+               font-size: 12px;
+               font-family: 'Roboto', sans-serif;
+               font-weight: 500;
+               margin: 0 30px;
+           }
+    
+           #left{
+               display: flex;
+               justify-content: space-around;
+               align-items: center;
+               margin-left: 30px;
+           }
+    
+           #left svg, #left p{
+               margin: 0;
+           }
+    
+           #left p{
+            padding-left: 10px;
+           }
+    
+           .footer a{
+               text-decoration: none;
+               color: #767676;
+           }
+    
+           .footer a:hover{
+               text-decoration: underline;
+               color: #000707;
+           }
+           
+           /*right div panel style begins*/
+           #right-div .login-flex{
+               display: flex;
+               justify-content: left;
+               background-color: #f4f4f4;   
+               border-radius: 4px; 
+               width: 100%;
+               height: 54px;
+               margin-top: 20px;
+           }
+    
+           .login-flex > svg{
+               color: #0b0207;
+               align-self: center;   
+               margin-left: 10px;
+           }
+
+           #right-div textarea{
+               width: 100%;
+               margin-top: 20px;
+               background-color: #f4f4f4;
+               border: none;
+               outline: none;
+               font-size: 16px;
+               font-family: 'Roboto', sans-serif;
+               font-weight: 300;
+               border-radius: 4px;
+               padding-left: 12px; 
+               padding-top: 12px;
+           }
+           /*right div styling ends*/
+        </style>
+    </head>
+    <body>
+        <main>
+            <!-- navigation link section -->
+            <section id="navbar">
+                <ol style="margin-top: 20px;">
+                    <li>
+                        <a href="content.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li id="caret">
+                        <span>Connect</span> 
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="#">LinkedIn</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">YouTube</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                  </ol>
+            </section>
+            <!-- contains feedback form -->
+            <section id="about" style="background-image: url(/images/about-banner.jpg); 
+            background-image: -webkit-image-set(url(/images/about-banner.jpg) 1x, 
+            url(/images/about-banner.jpg) 2x );">
+
+                <div id="logo">
+                    <h1>PhotoUp</h1>
+                    <p>We value your feedback.</p>
+                </div>
+                <div id="right-div">
+                    <form style="width:60%; margin:auto;">
+                        <div class="login-flex">
+                            <svg width="30" height="30" stroke-width="1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg> 
+                            <input type="text" name="" placeholder="Enter fullname">
+                        </div>
+                        <div class="login-flex">
+                            <svg width="30" height="30" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 9L12 12.5L17 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 17V7C2 5.89543 2.89543 5 4 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H4C2.89543 19 2 18.1046 2 17Z" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                
+                                
+                            <input type="text" name="" placeholder="Enter email">
+                        </div>
+                        <textarea rows="15" cols="50" name="comment" form="usrform" placeholder="Comments"></textarea>
+                        <input style="margin-top: 40px;" type="submit" name="" value="Submit">
+                    </form>
+                </div>
+            </section>
+             <!-- footer -->
+            <section class="footer footer-flex">
+                <div id="left">
+                    <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13 2.04932C13 2.04932 16 5.99994 16 11.9999C16 17.9999 13 21.9506 13 21.9506" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11 21.9506C11 21.9506 8 17.9999 8 11.9999C8 5.99994 11 2.04932 11 2.04932" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.62964 15.5H21.3704" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.62964 8.5H21.3704" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <a href="#"><p>English(United States)</p></a>    
+                </div>
+                <div id="right">
+                    <a href="#"><p>Sitemap</p></a>
+                    <a href="#"><p>Developer Api</p></a>
+                    <a href="#"><p>Privacy</p></a>
+                    <a href="#"><p>Trademark</p></a>
+                    <a href="#"><p>About our ads</p></a>
+                </div>
+            </section>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/result.js"></script>
+    </body>
+</html>

@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#cart{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+#cart h1{
+    
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    border-bottom: 1px solid #999;
+}
+
+#cart a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+#back{
+    margin-left: 80%;
+}
+
+#theItems{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+
+#content{
+    width: 50%;
+    margin: 2em auto;
+    columns: 300px;
+}
+
+#content article{
+    break-inside: avoid-column;
+    margin-bottom: 1rem;
+}
+
+article{
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 8px 20px -7px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    width: 100%;
+}
+
+.add-cart{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    border-top: 1px solid rgba(29,53,13,0.15000002);
+    
+}
+
+.item-img{
+    display: flex; 
+    border-bottom: 1px solid rgba(29,53,13,0.15000002);
+    margin-bottom: 20px;
+}
+
+.add-cart li{
+    padding-top: 20px;
+    padding-left: 6px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #999;
+}
+
+.add-cart li:last-child{
+    padding-top: 8px;
+    margin-left: 30%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+}
+
+.add-cart li:last-child:hover{
+    cursor: pointer;
+    color: black;
+ 
+}
+
+.item-price{
+    display: flex;
+    width: 35%;
+    align-self: flex-end;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 37px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #999;
+}
+
+.item-price p {
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    border-right: 1px solid #999;
+    font-size: 16px;
+}
+  
+
+.item-price input[type="number"]{
+    width: 50px;
+    margin-top: 2px;
+    margin-left: 20px;
+    height: 23px;
+}
+
+#summary{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 600px;
+    border-left: 1px solid rgba(29,53,13,0.15000002);
+} 
+
+#summary h2{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #999;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+
+#summary h2, #money, #pay-btn{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#money .sub{
+    border-bottom: 1px solid #999;
+    list-style: none;
+    margin: 10px;
+    display: flex;
+}
+
+.sub li{
+    width: 45%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.sub li:first-child{
+    width: 70%;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-right: 1px solid #999;
+}
+
+.sub p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+#pay-btn input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 30%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 10px;
+    background: #0b0207;
+    border-radius: 4px; 
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#pay-btn input[type="submit"]:hover{
+
+    cursor: pointer;
+    font-weight: 500;
+}

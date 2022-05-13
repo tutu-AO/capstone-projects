@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Employee</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/login-form.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/admin.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <div id="login-div">
+            <div id="left-div">
+                <h1>Administrator Page</h1>
+                <a href="index.html"><p>Back to index page</p></a>
+            </div>
+            <div id="right-div">
+                <form style="width:80%; margin:auto;">
+                    <div class="login-flex">
+                        <svg width="30" height="30" stroke-width="1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg> 
+                        <input id="my-value" type="text" placeholder="Enter username">
+                    </div>
+                    <div class="login-flex">
+                        <svg width="30" height="30" stroke-width="1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 12H17.4C17.7314 12 18 12.2686 18 12.6V19.4C18 19.7314 17.7314 20 17.4 20H6.6C6.26863 20 6 19.7314 6 19.4V12.6C6 12.2686 6.26863 12 6.6 12H8M16 12V8C16 6.66667 15.2 4 12 4C8.8 4 8 6.66667 8 8V12M16 12H8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                            
+                        <input type="password" name="" placeholder="Enter password">
+                    </div>
+                    <input id="click" style="margin-top: 40px;" type="submit" name="" value="Login">
+                </form>
+            </div>
+        </div>
+        <div id="disable">
+            <div id="all-products">
+                <div id="products-label" style="margin-bottom: 20px;">
+                    <h2>All Products</h2>
+                    <input onclick="window.location.href='saveProduct.html'" type="submit" name="" value="Add Product">
+                </div>
+                <div id="product-content">
+                    <article>
+                        <div style="display:flex;">
+                            <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMTg3NDF8MHwxfHNlYXJjaHwxfHxkb2d8ZW58MHx8fHwxNjUyMTQ1MTc4&ixlib=rb-1.2.1&q=80&w=1080">
+                            <ul class="prod-info">
+                                <li>Price: $69.88</li>
+                                <li>Height: 4032</li>
+                                <li>Width: 3024</li>
+                                <li>Likes: 5591</li>
+                            </ul>
+                        </div>
+                        <ul id="action">
+                            <li style="margin-top:6px; border-right: 1px solid rgba(29,53,13,0.15000002); padding-right: 10px;">update</li>
+                            <li style="margin-left:5%"><svg width="30" height="30" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 11V20.4C19 20.7314 18.7314 21 18.4 21H5.6C5.26863 21 5 20.7314 5 20.4V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 7L16 7M3 7L8 7M8 7V3.6C8 3.26863 8.26863 3 8.6 3L15.4 3C15.7314 3 16 3.26863 16 3.6V7M8 7L16 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></li>
+                        </ul>
+                    </article>
+                     <article>
+                        <div style="display:flex;">
+                            <img src="https://images.unsplash.com/photo-1510771463146-e89e6e86560e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMTg3NDF8MHwxfHNlYXJjaHwxOHx8ZG9nfGVufDB8fHx8MTY1MjE0NTE3OA&ixlib=rb-1.2.1&q=80&w=1080">
+                            <ul class="prod-info">
+                                <li>Price: $69.88</li>
+                                <li>Height: 4032</li>
+                                <li>Width: 3024</li>
+                                <li>Likes: 5591</li>
+                            </ul>
+                        </div>
+                        <ul id="action">
+                            <li style="margin-top:6px; border-right: 1px solid rgba(29,53,13,0.15000002); padding-right: 10px;">update</li>
+                            <li style="margin-left:5%"><svg width="30" height="30" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 11V20.4C19 20.7314 18.7314 21 18.4 21H5.6C5.26863 21 5 20.7314 5 20.4V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 7L16 7M3 7L8 7M8 7V3.6C8 3.26863 8.26863 3 8.6 3L15.4 3C15.7314 3 16 3.26863 16 3.6V7M8 7L16 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <div style="display:flex;">
+                            <img src="https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMTg3NDF8MHwxfHNlYXJjaHwxMHx8ZG9nfGVufDB8fHx8MTY1MjE0NTE3OA&ixlib=rb-1.2.1&q=80&w=1080">
+                            <ul class="prod-info">
+                                <li>Price: $69.88</li>
+                                <li>Height: 4032</li>
+                                <li>Width: 3024</li>
+                                <li>Likes: 5591</li>
+                            </ul>
+                        </div>
+                        <ul id="action">
+                            <li style="margin-top:6px; border-right: 1px solid rgba(29,53,13,0.15000002); padding-right: 10px;">update</li>
+                            <li style="margin-left:5%"><svg width="30" height="30" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 11V20.4C19 20.7314 18.7314 21 18.4 21H5.6C5.26863 21 5 20.7314 5 20.4V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 7L16 7M3 7L8 7M8 7V3.6C8 3.26863 8.26863 3 8.6 3L15.4 3C15.7314 3 16 3.26863 16 3.6V7M8 7L16 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <div id="all-users">
+                <div id="users-label">
+                    <h2>All Users</h2>
+                    <input id="searchById" style="width: 300px; margin-left: 5%;" type="text" placeholder="Search user by id (press enter)">
+                    <input onclick="window.location.href='saveUser.html'" type="submit" name="" value="Add User">
+                </div>
+                    <div id="table-content">
+                        <ul id="theader">
+                            <li style="font-weight: 500; font-size: 16.5px; text-transform: uppercase;">User Id</li>
+                            <li style="font-weight: 500; font-size: 16.5px; text-transform: uppercase;">First name</li>
+                            <li style="font-weight: 500; font-size: 16.5px; text-transform: uppercase;">Last name</li>
+                            <li style="font-weight: 500; font-size: 16.5px; text-transform: uppercase;">User Name</li>
+                            <li style="font-weight: 500; font-size: 16.5px; text-transform: uppercase;">Password</li>
+                            <li style="font-weight: 500; font-size: 16.5px; text-transform: uppercase; padding: 15px;">Action</li>
+                        </ul>
+                        <div id="tbody">
+                           <ul class="row">
+                                <li>1</li>
+                                <li>Binara</li>
+                                <li>Weerasinghe</li>
+                                <li>binarasw</li>
+                                <li>8n0Ii5HEw8I</li>
+                                <li>
+                                    <span class="row-edit">update</span>
+                                    <span class="row-delete"><svg style="margin-bottom: -5px;" width="25" height="25" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19 11V20.4C19 20.7314 18.7314 21 18.4 21H5.6C5.26863 21 5 20.7314 5 20.4V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M14 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 7L16 7M3 7L8 7M8 7V3.6C8 3.26863 8.26863 3 8.6 3L15.4 3C15.7314 3 16 3.26863 16 3.6V7M8 7L16 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
+                                </li>
+                           </ul>
+                           <ul class="row">
+                                <li>1</li>
+                                <li>Binara</li>
+                                <li>Weerasinghe</li>
+                                <li>binarasw</li>
+                                <li>8n0Ii5HEw8I</li>
+                                <li><span class="row-edit">update</span>
+                                    <span class="row-delete"><svg style="margin-bottom: -5px;" width="25" height="25" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 11V20.4C19 20.7314 18.7314 21 18.4 21H5.6C5.26863 21 5 20.7314 5 20.4V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14 17V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21 7L16 7M3 7L8 7M8 7V3.6C8 3.26863 8.26863 3 8.6 3L15.4 3C15.7314 3 16 3.26863 16 3.6V7M8 7L16 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg></span></li>
+                           </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/admin.js"></script>
+        <!-- <script src="js/save-user.js"></script> -->
+    </body>
+</html>

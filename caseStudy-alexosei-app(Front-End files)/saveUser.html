@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New User</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/new-user.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <section id="new-user">
+            <div id="header">
+                <h1>Save Or Update User Information</h1>
+            </div>
+            <div id="user-form" style="margin-top: 20px;">
+                <form id="form">
+                    <div class="login-flex">
+                        <label for="fname">First Name:</label><br/>
+                        <input type="text" id="fname" name="" >
+                    </div>
+                    <div class="login-flex">
+                        <label for="lname">Last Name:</label><br/>
+                        <input type="text" id="lname">
+                    </div>
+                    <div class="login-flex">
+                        <label for="uname">User Name:</label><br/>
+                        <input type="text" id="uname">
+                    </div>
+                    <div class="login-flex">
+                        <label for="passw">Password:</label><br/>
+                        <input type="text" id="passw">
+                    </div>
+                    <input id="saveUser" style="margin-top: 40px;" type="submit" name="" value="Save">
+                </form>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/save-user.js"></script>
+        <script src="js/admin.js"></script>
+    </body>
+</html>
