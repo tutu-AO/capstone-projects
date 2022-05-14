@@ -25,7 +25,7 @@ Core Java, Spring MVC framework, Tomcat server 9.0.5, Java EE, Junit5, Hibernate
 jQuery and JavaScript, Jackson library(mainly for converting JSON to Java Objects and vice versa), CORS(cross origin resource sharing),
 VS Code and Eclipse.
 
-Challenge:
+Challenges:
 Originally the project was supposed to be a spring mvc project but i run into an issue where Eclipse was changing my html(it wasn't showing up the way I wanted it to be). My solution was to seperate my front end code from my java(spring backend code), I decided to let Eclipse handle the backend and VS Code handle to Front-End(HTML, CSS, jQuery and Javascript). After that I added Jackson library to my pom.xml and implemented CORS in my spring configuration file to allow data sharing between my two end points.
 
 To run the application:
