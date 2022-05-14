@@ -1,5 +1,5 @@
 # capstone-projects
-these projects were built with eclipse IDE
+these projects were built with eclipse IDE and VS Code
 
 Welcome to photoup app project:
 
